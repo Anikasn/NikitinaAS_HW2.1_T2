@@ -17,16 +17,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        redLightView.layer.cornerRadius = self.redLightView.frame.width / 2.0
+        redLightView.layer.cornerRadius = redLightView.frame.width / 2.0
         redLightView.alpha = 0.3
         
-        yellowLightView.layer.cornerRadius = self.yellowLightView.frame.width / 2.0
+        yellowLightView.layer.cornerRadius = yellowLightView.frame.width / 2.0
         yellowLightView.alpha = 0.3
         
-        greenLightView.layer.cornerRadius = self.greenLightView.frame.width / 2.0
+        greenLightView.layer.cornerRadius = greenLightView.frame.width / 2.0
         greenLightView.alpha = 0.3
         
-        startButton.layer.cornerRadius = self.startButton.frame.height / 2.0
+        startButton.layer.cornerRadius = startButton.frame.height / 2.0
     }
 
     @IBAction func startButtonPressed() {
