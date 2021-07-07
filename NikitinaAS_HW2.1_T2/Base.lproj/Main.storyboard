@@ -21,7 +21,6 @@
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="NDM-So-4q2"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="imA-Y7-8tQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
                                 <state key="normal" title="START">
@@ -33,37 +32,30 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="DX8-DH-2ZB">
-                                <rect key="frame" x="135" y="126" width="158" height="580"/>
+                                <rect key="frame" x="134" y="126" width="160" height="580"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xXh-Ze-P1P">
-                                        <rect key="frame" x="0.0" y="0.0" width="158" height="160"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="xXh-Ze-P1P" secondAttribute="height" multiplier="1:1" id="U8O-ai-hTl"/>
+                                            <constraint firstAttribute="width" secondItem="xXh-Ze-P1P" secondAttribute="height" multiplier="1:1" id="s1y-s6-WPJ"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QLD-ip-6uo">
-                                        <rect key="frame" x="0.0" y="210" width="158" height="160"/>
+                                        <rect key="frame" x="0.0" y="210" width="160" height="160"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="QLD-ip-6uo" secondAttribute="height" multiplier="1:1" id="oNc-gR-S0T"/>
+                                            <constraint firstAttribute="width" secondItem="QLD-ip-6uo" secondAttribute="height" multiplier="1:1" id="6gu-Y0-P9L"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VSR-Mf-Hq1">
-                                        <rect key="frame" x="0.0" y="420" width="158" height="160"/>
+                                        <rect key="frame" x="0.0" y="420" width="160" height="160"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="VSR-Mf-Hq1" secondAttribute="height" multiplier="1:1" id="KKL-Vk-oLX"/>
+                                            <constraint firstAttribute="width" secondItem="VSR-Mf-Hq1" secondAttribute="height" multiplier="1:1" id="MiP-cM-Nk2"/>
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="DX8-DH-2ZB" secondAttribute="height" multiplier="3:11" id="Nmw-0T-qT8"/>
-                                    <constraint firstItem="QLD-ip-6uo" firstAttribute="height" secondItem="xXh-Ze-P1P" secondAttribute="height" id="WQI-Je-y9G"/>
-                                    <constraint firstItem="QLD-ip-6uo" firstAttribute="width" secondItem="xXh-Ze-P1P" secondAttribute="width" id="aPb-Np-ajb"/>
-                                    <constraint firstItem="VSR-Mf-Hq1" firstAttribute="width" secondItem="xXh-Ze-P1P" secondAttribute="width" id="fWN-Am-Qwm"/>
-                                    <constraint firstItem="VSR-Mf-Hq1" firstAttribute="height" secondItem="xXh-Ze-P1P" secondAttribute="height" id="xff-cr-U5g"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -86,7 +78,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="88.392857142857139"/>
+            <point key="canvasLocation" x="18.75" y="87.676056338028175"/>
         </scene>
     </scenes>
     <resources>
